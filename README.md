@@ -4,7 +4,7 @@ The main problem solved is
 
 
 - Simplified working with the app
-- Verification doesn't have scope nor middleware. We help managing this.
+- llows using scope when verifying results. It allows to mock objects otherwise created by middle ware during normal execution.
 - Db migrations run once and only once at startup
 - Fast data cleanup between tests
 
